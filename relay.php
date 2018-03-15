@@ -5,6 +5,12 @@ $email_to = $_POST['to'];
 $email_subject = "Method: Relay";
 $comments = $_POST['comments'];
 
+// Check
+if(strlen($email_to) < 2) {
+  echo "ERROR: It seems you haven't entered any e-mail address. Please try agian.<br /> ";
+  die();
+}
+
 // Build
 $email_message = "Form details below.\n\n";
 

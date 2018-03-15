@@ -22,7 +22,7 @@
         </p>
 
         <form name="contactform" method="post">
-            <table width="250px">
+            <table width="100px">
                 <tr>
                     <td valign="top">
                         <label for="subject">To *</label>
@@ -40,7 +40,7 @@
                     </td>
                 </tr>
                 <tr>
-                <td colspan="2" style="text-align:center">
+                <td colspan="2" style="text-align:left">
                     <button type="submit" formaction="relay.php">Method: Relay</button>
                     <button type="submit" formaction="smtp-auth.php">Method: SMTP Auth</button>
                 </td>
