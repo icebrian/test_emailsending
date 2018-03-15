@@ -24,7 +24,7 @@ try {
     $mail->Port = 25;                                    // TCP port to connect to
 
     //Recipients
-    $mail->setFrom('smtpmailer@icebrian.ml', 'SMTP Auth');
+    $mail->setFrom('smtpmailer@icebrian.ml', 'Method: SMTP Auth');
     $mail->addAddress($_POST['to'], 'Your Name');     // Add a recipient
     //$mail->addAddress('ellen@example.com');               // Name is optional
     //$mail->addReplyTo('ellen@example.com', 'Information');
